@@ -1,0 +1,48 @@
+𝐀𝐫𝐫𝐚𝐲𝐬
+An 𝐀𝐫𝐫𝐚𝐲 is a collection of items stored at 𝗰𝗼𝗻𝘁𝗶𝗴𝘂𝗼𝘂𝘀 𝗺𝗲𝗺𝗼𝗿𝘆 𝗹𝗼𝗰𝗮𝘁𝗶𝗼𝗻𝘀. Hence, making it a 𝗹𝗶𝗻𝗲𝗮𝗿 𝗱𝗮𝘁𝗮 𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗲. The idea is to store multiple items/elements of the 𝘀𝗮𝗺𝗲 𝘁𝘆𝗽𝗲 𝘁𝗼𝗴𝗲𝘁𝗵𝗲𝗿. This makes it easier to calculate the position of each element by simply adding an offset to a base value. 
+
+𝗕𝗮𝘀𝗲 𝘃𝗮𝗹𝘂𝗲 -  the memory location of the first element of the array
+𝗢𝗳𝗳𝘀𝗲𝘁 - the difference between two indices.
+
+𝐖𝐡𝐲 𝐮𝐬𝐞 𝐚𝐫𝐫𝐚𝐲𝐬?
+Arrays are used to 𝘀𝘁𝗼𝗿𝗲 𝗺𝘂𝗹𝘁𝗶𝗽𝗹𝗲 𝘃𝗮𝗹𝘂𝗲𝘀 𝗶𝗻 𝗮 𝘀𝗶𝗻𝗴𝗹𝗲 𝘃𝗮𝗿𝗶𝗮𝗯𝗹𝗲, instead of declaring separate variables for each value. They are particularly useful when you need to store a list of items, such as a list of numbers, names, or other data.
+
+𝐂𝐡𝐚𝐫𝐚𝐜𝐭𝐞𝐫𝐢𝐬𝐭𝐢𝐜𝐬 𝐨𝐟 𝐀𝐫𝐫𝐚𝐲𝐬:
+1)	Homogeneous elements
+2)	Accessing through ‘index’
+3)	Fixed size
+
+𝐃𝐞𝐜𝐥𝐚𝐫𝐚𝐭𝐢𝐨𝐧 𝐚𝐧𝐝 𝐈𝐧𝐢𝐭𝐢𝐚𝐥𝐢𝐳𝐚𝐭𝐢𝐨𝐧 𝐨𝐟 𝐚𝐧 𝐀𝐫𝐫𝐚𝐲:
+// Declaration
+int numbers[5];
+
+// Initialization
+numbers[0] = 1;
+numbers[1] = 2;
+numbers[2] = 3;
+numbers[3] = 4;
+numbers[4] = 5;
+
+𝐀𝐜𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐨𝐟 𝐞𝐥𝐞𝐦𝐞𝐧𝐭𝐬 𝐢𝐧 𝐚𝐧 𝐚𝐫𝐫𝐚𝐲:
+Cout<<numbers[4];
+
+𝐎𝐩𝐞𝐫𝐚𝐭𝐢𝐨𝐧𝐬 𝐨𝐧 𝐚𝐫𝐫𝐚𝐲𝐬:
+1)	Insertion
+2)	Deletion
+3)	Traversing
+4)	Searching
+5)	Sorting
+
+𝐀𝐝𝐯𝐚𝐧𝐭𝐚𝐠𝐞𝐬:
+1)	Fast Access: Accessing an element by its index is very fast.
+2)	Memory Efficiency: Arrays are stored in contiguous memory locations, which makes them memory efficient.
+
+𝐃𝐢𝐬𝐚𝐝𝐯𝐚𝐧𝐭𝐚𝐠𝐞𝐬:
+1)	Fixed Size: The size of an array is fixed and cannot be changed once declared.
+2)	Homogeneous Elements: Arrays can only store elements of the same type.
+
+𝐑𝐞𝐬𝐨𝐮𝐫𝐜𝐞𝐬 - 
+1) https://www.freecodecamp.org/news/data-structures-101-arrays-a-visual-introduction-for-beginners-7f013bcc355a/
+2) https://www.geeksforgeeks.org/complete-guide-to-arrays-data-structure/
+3) https://www.geeksforgeeks.org/array-data-structure-guide/
+
